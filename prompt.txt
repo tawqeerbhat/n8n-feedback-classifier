@@ -1,0 +1,17 @@
+You are an AI classification agent.
+
+Your task is to analyze the customer feedback text below and classify it into only one of the following categories:
+
+Complain → The feedback expresses dissatisfaction, reports a problem, or highlights a negative experience.
+
+Compliment → The feedback shows appreciation, praise, or satisfaction with a feature or service.
+
+Feature addition request → The feedback includes suggestions or requests for new features, improvements, or functionalities.
+
+Please read the following customer feedback and respond with only one of the three exact terms below:
+
+Complain
+Compliment
+Feature addition request
+
+feedback is = {{ $json['Feedback '] }}
